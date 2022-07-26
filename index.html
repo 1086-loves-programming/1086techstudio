@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width，initial-scale=1.0，maximum-scale=1.0，minimum-scale=1.e，user-scalable=no">
     <title>1086科技工作室官网</title>
     <style>
         a {
@@ -69,7 +69,7 @@
             font-family: arial;
             display: inline-block;
             margin: 10px;
-            transition: 0.5px;
+            transition: all .3s ease-in 0s;
         }
 
         .card button {
@@ -84,12 +84,6 @@
 
         .card a {
             color: white;
-        }
-
-        .card img:hover {
-            filter: blur(5px);
-            width: 80px;
-            transition: margin-right 2s;
         }
 
         .container {
@@ -109,6 +103,11 @@
         .cards {
             text-align: center;
             margin: 0 auto;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: all 0.3s ease-in;
         }
 
         body {
@@ -141,11 +140,10 @@
     </style>
 </head>
 
-<body bgcolor="aliceblue">
+<body bg color="aliceblue">
     <div class="header">
         <div align="center" class="h1">欢迎来到1086科技工作室官网！</div></br></br></br>
-        <div align="center"><button class="button" style="vertical-align:middle"><span><a
-                        href="https://shequ.codemao.cn/work_shop/7379">加入我们</a></span></button>
+        <div align="center"><button class="button" style="vertical-align:middle" onclick="window.open('https://shequ.codemao.cn/work_shop/7379');"><span>加入我们</span></button>
         </div></br></br>
         <p style="font-size:25px;">欢迎优秀的你加入1086科技工作室！这里有一群热爱学习的伙伴，与你一起学习，一起成长，一起进步，更有海量的学习资源与你分享！</p>
         </br></br></br></br>
@@ -159,36 +157,32 @@
     </div></br></br></br></br>
     <h1 align="center">工作室核心成员</h1>
     <div class="cards">
-        <div class="card">
+        <div class="card" onclick="window.open('https://shequ.codemao.cn/user/13869990');">
             <img src="https://cdn-community.codemao.cn/47/community/d2ViXzEwMDFfMTM4Njk5OTBfMTM4Njk5OTBfMTY1NjU3OTc5NjkzMV8wN2I0MWY1YQ.png"
                 alt="86" style="width:100%">
             <div class="container">
                 <h1>1086爱编程</h1>
                 <p class="title">工作室室长</p>
                 <p>1086科技永远欢迎你！</p>
-                <p><button><a href="https://shequ.codemao.cn/user/13869990" class="home">个人主页</a></button></p>
             </div>
         </div>
-        <div class="card">
+        <div class="card" onclick="window.open('https://shequ.codemao.cn/user/1964079161');">
             <img src="https://cdn-community.codemao.cn/community_frontend/community_default_avatar/avatar_300x300_08.jpg"
                 alt="86" style="width:100%">
             <div class="container">
                 <h1>广安awa</h1>
                 <p class="title">工作室副室长</p>
                 <p>hi</p>
-                <p><button><a href="https://shequ.codemao.cn/user/1964079161" class="home">个人主页</a></button></p>
             </div>
-        </div>
-    </div></br></br></br></br>
-    <div align="center"><button class="button" style="vertical-align:middle"><span><a
-                    href="https://shequ.codemao.cn/work_shop/7379">立刻加入</a></span></button></br></br></br></br>
-        <div class="msg"></div>
-        <div class="msg">
-            <h1>特别鸣谢</h1>
-            <p>MathCalculus</p>
         </div></br></br></br></br>
-        <p>🔔2022 1086 Tech Studio🔔</p>
-    </div>
+        <div align="center"><button class="button" style="vertical-align:middle" onclick="window.open('https://shequ.codemao.cn/work_shop/7379');"><span>立刻加入</span></button></br></br></br></br>
+            <div class="msg"></div>
+            <div class="msg">
+                <h1>特别鸣谢</h1>
+                <p>MathCalculus</p>
+            </div></br></br></br></br>
+            <p>🔔2022 1086 Tech Studio🔔</p>
+        </div>
 </body>
 
 </html>
